@@ -13,7 +13,15 @@ args = parser.parse_args()
 
 filmes = find( args.path, '-iname', '*mp4',
                '-o', '-iname', '*avi',
-               '-o', '-iname', '*mkv',               
+               '-o', '-iname', '*mkv',
+               '-o', '-iname', '*iso',
+               '-o', '-iname', '*vob',
+               '-o', '-iname', '*ogm',
+               '-o', '-iname', '*m4v',
+               '-o', '-iname', '*ogg',
+               '-o', '-iname', '*flv',
+               '-o', '-iname', '*divx',
+               '-o', '-iname', '*wmv',
                '-o', '-iname', '*mov')
 
 filtered = []
